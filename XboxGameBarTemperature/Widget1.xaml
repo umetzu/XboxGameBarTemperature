@@ -14,8 +14,8 @@
             HorizontalAlignment="Left"
             VerticalAlignment="Center"
             Orientation="Vertical">
-            <TextBlock x:Name="myTextBlock" Padding="0,0,0,5" Text="GPU 0 °C" FontSize="14" HorizontalAlignment="Left" 
-                       FontFamily="Assets/BS_Static_Bold.ttf#Bahnschrift Static Bold" Opacity="0.85" />
+            <TextBlock x:Name="myTextBlock" Padding="0,0,0,5" Text="GPU 0 °C" FontSize="14" HorizontalAlignment="Left" Margin="20"
+                        Opacity="0.85" />
         </StackPanel>
     </Grid>
 </Page>

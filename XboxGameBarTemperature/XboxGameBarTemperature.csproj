@@ -185,7 +185,7 @@
       <Version>1.0.3</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Gaming.XboxGameBar">
-      <Version>5.8.220627001</Version>
+      <Version>7.2.241028002</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.14</Version>

@@ -6,13 +6,12 @@
     xmlns:local="using:XboxGameBarTemperature"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-    mc:Ignorable="d">
+    mc:Ignorable="d" d:DesignHeight="175" d:DesignWidth="450">
 
     <StackPanel
         HorizontalAlignment="Center"
         VerticalAlignment="Center"
         Orientation="Vertical">
-        <TextBlock x:Name="myTextBlock" Padding="0,0,0,5" Text="MainPage" />
-        <Button x:Name="myButton" Click="MyButton_Click">Click Me</Button>
+        <TextBlock x:Name="myTextBlock" Padding="0,0,0,5" Text="GameBar Temperature Installed" />
     </StackPanel>
 </Page>

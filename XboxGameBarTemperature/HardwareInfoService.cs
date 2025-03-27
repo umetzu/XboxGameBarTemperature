@@ -1,5 +1,7 @@
 using OpenHardwareMonitor.Hardware;
+using System;
 using System.Linq;
+using System.Management;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -53,7 +55,6 @@ namespace XboxGameBarTemperature
                 NICEnabled = false,
                 HDDEnabled = false
             };
-
             computer.Open();
             computer.Accept(new UpdateVisitor());
 
